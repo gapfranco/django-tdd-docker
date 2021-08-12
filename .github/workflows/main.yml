@@ -52,6 +52,7 @@ jobs:
             --cache-from ${{ env.IMAGE }}:latest \
             --tag ${{ env.IMAGE }}:latest \
             --file ./Dockerfile.prod \
+            --build-arg SECRET_KEY="${{ secrets.SECRET_KEY }}" \
             "."
       - name: Run container
         run: |
