@@ -1,6 +1,6 @@
 # Test-Driven Development with Django REST Framework and Docker
 
-Implementação do projeto do curso **Test-Driven Development with Django, Django REST Framework, and Docker**.
+Implementação um pouco modificada do projeto do curso **Test-Driven Development with Django, Django REST Framework, and Docker**.
 
 Recursos:
 
