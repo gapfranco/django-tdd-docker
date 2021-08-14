@@ -2,11 +2,44 @@
 
 Implementação um pouco modificada do projeto do curso **Test-Driven Development with Django, Django REST Framework, and Docker**.
 
-Recursos:
+## Objetivos
 
-1. API com *Django REST Framework*
-2. Acessa Banco de Dados PostgreSQL
-3. Testes com **pytest**
-4. Desenvolvimento usando Docker
-5. CI/CD com github actions
-6. Deploy no Heroku
+Criar um projeto simples para exercitar algumas práticas modernas de desenvolvimento
+com Python. Implementa uma API com *Django Rest Framework* acessando uma bando de dados
+PostgreSQL. 
+
+## Diretrizes
+
+1. Usar Docker no desenvolvimento e instalação.
+2. Test Driven Development usando *pytest*
+3. Usar *gitbub actions* para CI/CD
+4. Fazer deploy no *Heroku*
+
+## Requisitos
+
+- Docker
+- Python 3
+
+## Instalação
+
+1. Acessar o diretório baixado: 
+
+   ```bash
+   cd django-tdd-docker
+   ```
+
+2. Criar e ativar virtual environment:
+
+    ```bash
+    python3 -m venv venv
+
+    source venv/bin/activate
+    ```
+
+3. Instalar o ambiente:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+

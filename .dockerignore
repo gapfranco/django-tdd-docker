@@ -3,3 +3,4 @@ venv
 Dockerfile
 Dockerfile.prod
 .coverage
+db.sqlite3

@@ -4,3 +4,4 @@ htmlcov
 .coverage
 .devcontainer
 .coverage
+db.sqlite3
